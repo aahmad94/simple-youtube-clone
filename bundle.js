@@ -33209,6 +33209,8 @@
 	        'div',
 	        { className: 'search-bar' },
 	        _react2.default.createElement('input', {
+	          className: 'form-control',
+	          placeholder: 'Search',
 	          value: this.state.term,
 	          onChange: function onChange(e) {
 	            return _this2.onInputChange(e.target.value);
